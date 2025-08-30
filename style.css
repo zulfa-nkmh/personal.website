@@ -7,9 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.body {
+body {
     background: #0d2a3e;
-    color: #ededed
+    color: #ededed;
 }
 .header {
     position: fixed;
