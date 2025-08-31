@@ -148,7 +148,11 @@ body {
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    filter: brightness(0.7) contrast(1.2);
+    filter: brightness(1) contrast(1.2);
+    transition: filter 0.5s ease-in-out;
+}
+.home-img img:hover {
+    filter: brightness(1) contrast(1) sepia(50%) hue-rotate(200deg);
 }
 
 .home-img img::before {
