@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: left;
     padding: 0 50px;
     position: relative;
@@ -147,7 +147,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: contain;
     filter: brightness(1) contrast(1.2);
     transition: filter 0.5s ease-in-out;
 }
